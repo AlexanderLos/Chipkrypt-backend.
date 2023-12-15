@@ -1,10 +1,13 @@
-from django.shortcuts import get_object_or_404
+from django.shortcuts import get_object_or_404, HttpResponse
 from .models import Currency
 from .serializers import CurrencySerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 import requests
 import os
+
+def home(request):
+    return HttpResponse("Welcome to ChipKrypt API!")
 
 class CurrencyList(APIView):
     def get(self, request):
