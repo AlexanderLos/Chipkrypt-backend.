@@ -36,6 +36,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://chipkrypt-678f16414a28.herokuapp.com/"
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 # Application definition
 
