@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['chipkrypt-678f16414a28.herokuapp.com', 'localhost', '127.0.0.1
 # CORS 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://chipkrypt-678f16414a28.herokuapp.com/"
+    "https://chipkrypt-678f16414a28.herokuapp.com"
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
